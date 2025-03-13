@@ -1,3 +1,11 @@
+
+body {
+  background: url('https://i.pinimg.com/originals/63/2a/68/632a681be7c9dbd77bc2a9ca6334af58.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+}
+.logo span {
+  color: #FF4500;
+}
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -5,21 +13,8 @@
   font-family: "Anton", sans-serif;
   color: #FFFFFF;
 }
-
-body {
-  background: url('https://i.pinimg.com/originals/63/2a/68/632a681be7c9dbd77bc2a9ca6334af58.jpg') no-repeat center center/cover;
-  background-attachment: fixed;
-
-}
-
-.logo span {
-  color: #FF4500;
-}
-
 .cabecalho {
-  background: linear-gradient(800deg, #FFFFFF, #FF4500);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #FFFFFF;
   font-size: 19px;
   font-family: "Anton", sans-serif;
   position: fixed;
@@ -28,7 +23,6 @@ body {
   display: flex;
   gap: 20px;
 }
-
 .texto {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
@@ -37,16 +31,12 @@ body {
   margin-top: 275px;
   color: #f4e8e8
 }
-
 .redes-sociais {
   display: flex;
   justify-content: left;
   padding: 20px;
   margin-top: 280px;
-
- 
 }
-
 .redes-sociais img {
   width: 35px;
   margin: 0 10px;
